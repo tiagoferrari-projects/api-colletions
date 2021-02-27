@@ -9,25 +9,25 @@ fun main() {
     values[3] = 2
     values[4] = 8
     values[5] = 25
-
+    //
     for(valor in values){
         println(valor)
     }
-
+    //
     println("-----------------------------")
-
+    //
     values.forEach {valor ->
         println(valor)
     }
-
+    //
     println("-----------------------------")
-
+    //
     for(index in values.indices){
         println(values[index])
     }
-
+    //
     println("-----------------------------")
-
+    //
     values.sort()
     for(valor in values){
         println(valor)
